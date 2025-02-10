@@ -57,5 +57,5 @@ npm run docs:preview  # 或 pnpm run docs:preview / yarn docs:preview
 
 
 ## 📜 许可证
-本项目采用 [MIT License](LICENSE) 许可。
+本项目采用 MIT License 许可。
 
