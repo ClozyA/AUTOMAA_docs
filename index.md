@@ -7,7 +7,7 @@ hero:
   text: "MAA多账号管理与自动化软件"
   tagline: "优化MAA多账号体验，提高代理稳定性"
   image:
-    src: /resource/AUTO_MAA.png 
+    src: /public/resource/AUTO_MAA.png 
     alt: "AUTO_MAA Logo"
   actions:
     - theme: brand
