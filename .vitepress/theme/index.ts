@@ -3,6 +3,8 @@ import { h } from "vue";
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
+// theme/index.ts
+import "@theojs/lumen/theme";
 
 export default {
   extends: DefaultTheme,

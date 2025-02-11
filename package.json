@@ -9,7 +9,9 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@theojs/lumen": "^5.4.0"
+  },
   "devDependencies": {
     "prettier": "3.5.0",
     "typescript": "^5.5.3",
