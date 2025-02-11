@@ -1,6 +1,7 @@
 {
   "name": "AUTOMAA_docs",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -10,12 +11,21 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@theojs/lumen": "^5.4.0"
+    "@theojs/lumen": "^5.4.0",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "prettier": "3.5.0",
     "typescript": "^5.5.3",
     "vitepress": "^1.6.3"
   },
-  "private": true
+  "private": true,
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild"
+    ],
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }
