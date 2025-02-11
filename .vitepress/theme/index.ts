@@ -11,7 +11,9 @@ import { Footer_Data } from "../data/footerData";
 import { Announcement } from "@theojs/lumen";
 import { ShareButton } from "@theojs/lumen";
 import { googleAnalytics } from "@theojs/lumen";
-
+import { DocBox, DocBoxCube, DocLinks, DocPill } from "@theojs/lumen";
+import { DocAsideLogo } from "@theojs/lumen";
+import { Aside_Data } from "../data/AsideData";
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -20,10 +22,16 @@ export default {
       "layout-bottom": () => h(HomeFooter, { Footer_Data }),
       "home-hero-info-before": () => h(Announcement),
       "aside-outline-before": () => h(ShareButton),
+      "aside-ads-before": () => h(DocAsideLogo, { Aside_Data }),
     });
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    // 注册 Google Analytics
     googleAnalytics({ id: "G-SE0CWGQ7VL" });
+    // 注册自定义组件
+    app.component("Box", DocBox);
+    app.component("Pill", DocPill);
+    app.component("Links", DocLinks);
+    app.component("BoxCube", DocBoxCube);
   },
 } satisfies Theme;

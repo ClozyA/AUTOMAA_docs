@@ -25,8 +25,10 @@ date: 2025-02-10
 
 更多信息请查看：
 
-- [Server酱·Turbo版](https://sct.ftqq.com/)
-- [Server酱³ · 极简推送服务](https://sc3.ft07.com/)
+<Box :items="[
+{ name: 'Server酱Turbo版', link: 'https://sct.ftqq.com/', image: 'https://the7.ft07.com/sct/images/favicon.png' },
+{ name: 'Server酱³', link: 'https://sc3.ft07.com/', image: 'https://the7.ft07.com/sct/images/favicon.png' },
+]"/>
 
 ::: warning 注意
 Server酱官方在 2024 年推出了一种新的 App 推送渠道，与原来的 **Server酱·Turbo 版** （SCT）不同，并重新命名为 **Server酱³**
@@ -39,15 +41,11 @@ Server酱官方在 2024 年推出了一种新的 App 推送渠道，与原来的
 
 SendKey 是 **Server酱** 平台对用户的认证方式。只有 **提供 SendKey**，AUTO_MAA 才能将消息精准推送到您的设备。
 
-#### SCT 平台获取
+SCT
+平台获取Key：<Pill name="SCT SendKey" image="https://the7.ft07.com/sct/images/favicon.png" link="https://sct.ftqq.com/sendkey"/>
 
-- 前往 [SCT SendKey](https://sct.ftqq.com/sendkey)
-- 获取 SendKey 并填写至 AUTO_MAA
-
-#### SC3 平台获取
-
-- 前往 [SC3 SendKey](https://sc3.ft07.com/sendkey)
-- 获取 SendKey 并填写至 AUTO_MAA
+SC3
+平台获取Key：<Pill name="SC3 SendKey" image="https://the7.ft07.com/sct/images/favicon.png" link="https://sc3.ft07.com/sendkey"/>
 
 :::warning 注意
 以上两个平台仅需选择一个即可，请根据您的实际情况选择。
@@ -138,7 +136,7 @@ SMTP 服务器地址：
 
 #### 4. QQ邮箱
 
-> 参考信息：[QQ邮箱官方教程](https://service.mail.qq.com/detail/0/75)
+<Pill name="QQ邮箱官方教程" image="https://res.wx.qq.com/t/webmail/webmail/res/static/images/projects/login/loginpage/qqmail_logo_default_35h.e071fb4.png" link="https://service.mail.qq.com/detail/0/75"/>
 
 - 登录到您的 QQ 邮箱。
 - 点击“设置” > “账户”。
@@ -146,8 +144,7 @@ SMTP 服务器地址：
 
 #### 5. 163邮箱
 
->
-参考信息：[163邮箱官方教程](https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2a5feb28b66796d3b)
+<Pill name="163邮箱官方教程" image="https://help.mail.163.com/style/img/logo-163.png" link="https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2a5feb28b66796d3b"/>
 
 - 登录到您的 163 邮箱。
 - 点击“设置” > “POP3/SMTP/IMAP”。

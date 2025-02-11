@@ -12,7 +12,7 @@ export const Footer_Data: FooterData = {
         {
           name: "AUTO_MAA本体GitHub",
           link: "https://github.com/DLmaster361/AUTO_MAA",
-          icon: "solar:book-bold",
+          icon: "octicon:mark-github-16",
         },
       ],
     },
@@ -23,7 +23,7 @@ export const Footer_Data: FooterData = {
       links: [
         {
           name: "AUTO_MAA文档站GitHub",
-          icon: "solar:book-bold",
+          icon: "octicon:mark-github-16",
           link: "https://github.com/ClozyA/AUTOMAA_docs",
         },
       ],
