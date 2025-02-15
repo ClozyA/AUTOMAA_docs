@@ -3,8 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/AUTOMAA_docs/",
-  title: "AUTOMAA",
-  description: "AUTOMAA",
+  title: "AUTO_MAA",
+  description: "AUTO_MAA",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

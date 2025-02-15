@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "AUTOMAA"
+  name: "AUTO_MAA"
   text: "MAA多账号管理与自动化软件"
   tagline: "优化MAA多账号体验，提高代理稳定性"
   prelink:
