@@ -9,7 +9,7 @@ hero:
   prelink:
     title: 'AUTO_MAA v4.2.3 已发布'
     content: '🚀点击前往 GitHub 进行下载🚀'
-    link: https://github.com/DLmaster361/AUTO_MAA
+    link: https://github.com/DLmaster361/AUTO_MAA/releases/tag/v4.2.3
   image:
     src: /resource/AUTO_MAA.png
     alt: "AUTO_MAA Logo"
