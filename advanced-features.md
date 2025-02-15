@@ -12,9 +12,74 @@ date: 2025-02-10
 
 在 **通知** 选项中，您可以配置 **代理成功消息推送** 的渠道。
 
-## ServerChan 方式推送
+## SMTP 邮件推送
 
-在 **v4.2.2-beta.2** 版本中，新增了 **ServerChan** 的推送方式。
+#### 什么是 SMTP？
+
+**SMTP** 是一种可靠有效的电子邮件传输协议，AUTO_MAA 使用 **SMTP-SSL** 推送电子邮件通知。
+
+### SMTP 服务器地址
+
+请根据发信邮箱的电子邮件服务提供商选择正确的 SMTP 服务器地址。
+
+| 电子邮件服务提供商 | SMTP 服务器地址 |
+|------------------|----------------|
+| **QQ邮箱** | smtp.qq.com |
+| **163邮箱** | smtp.163.com |
+| **Gmail** | smtp.gmail.com |
+| **Outlook/Hotmail** | smtp-mail.outlook.com |
+| **Yahoo Mail** | smtp.mail.yahoo.com |
+
+若未找到您使用的电子邮件服务，请访问该邮件服务的帮助中心或搜索其 SMTP 服务器地址。
+
+### 获取授权码
+
+**授权码** 是用于替代您的邮箱密码进行第三方客户端登录的一种特殊密码，您需要填写发信邮箱的授权码。常见邮件服务商授权码的一般获取步骤如下：
+
+#### 1. QQ邮箱
+
+<Pill name="QQ邮箱官方教程" image="https://res.wx.qq.com/t/webmail/webmail/res/static/images/projects/login/loginpage/qqmail_logo_default_35h.e071fb4.png" link="https://service.mail.qq.com/detail/0/75"/>
+
+- 登录到您的 [QQ 邮箱账号与安全中心](https://wx.mail.qq.com/account)。
+- 在 **账号与安全 > 安全设置 > SMTP/IMAP服务** 中开启服务并获取授权码。
+
+#### 2. 163邮箱
+
+<Pill name="163邮箱官方教程" image="https://help.mail.163.com/style/img/logo-163.png" link="https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2a5feb28b66796d3b"/>
+
+- 登录到您的 [163 邮箱](https://email.163.com)。
+- 进入 **设置 > POP3/SMTP/IMAP**，找到 **IMAP/SMTP服务** 并点击开启。
+- 在弹窗中点击 **继续开启**，根据指示在手机中发送短信。
+- 弹窗生成 **授权密码**，该密码便为您的授权码。
+
+#### 3. Gmail
+
+- 登录到您的 [Gmail](https://mail.google.com)。
+- 进入 **设置 > 查看所有设置 > 转发和 POP/IMAP > IMAP 访问**，选择 **启用 IMAP**。
+- 进入 **用户 > 管理您的 Google 账号 > 安全性 > 两步验证**，按提示开启 **两步验证**。
+- 进入 **两步验证 > 应用专用密码**，按提示创建 **应用专用密码**，该密码便为您的授权码。
+
+#### 4. Outlook/Hotmail
+
+- 登录到您的 **Outlook 账户**。
+- 进入 **我的账户 > 安全和隐私 > 更多安全选项**。
+- 在 **应用程序密码** 中创建应用程序密码。
+
+#### 5. Yahoo Mail
+
+- 登录到您的 **Yahoo 账户**。
+- 前往账户的 **安全设置**。
+- 找到 **生成应用程序密码** 或类似选项以创建应用密码。
+
+
+::: warning 注意
+- 为了您的信息安全，请勿将授权码告诉他人，并定期更换。
+- 部分邮箱的授权码仅显示一次，请及时保存；部分邮箱的授权码存在有效期，请在到期前及时更换。
+- AUTO_MAA 已对本地授权码数据使用 **Windows DPAPI** 加密，这种加密方式将当前用户的登录凭据作为加密密钥的一部分，这意味着只有同一个用户在同一台计算机上才能解密数据。如果您需要跨设备迁移配置文件，请重新输入授权码。
+- SMTP 邮件推送服务**允许发信邮箱与收信邮箱相同**，若没有多余的电子邮箱，可以填写相同的发信邮箱与收信邮箱地址。
+:::
+
+## ServerChan 方式推送
 
 #### 什么是 ServerChan？
 
@@ -86,74 +151,8 @@ SC3
 ::: tip **Tag 填写格式**
 **多个 Tag 请用 `|` 分隔**，格式如下：
 
-- ❌ `AutoMAA | 代理情况`
-- ✔️ `AutoMAA|代理情况`
+- ❌ `AUTO_MAA | 代理情况`
+- ✔️ `AUTO_MAA|代理情况`
 
 若留空或填写不正确，则推送消息时不会携带 Tag 信息。
-:::
-
-## SMTP 邮件推送
-
-除了 ServerChan，您还可以使用 **SMTP 电子邮件** 方式推送消息。
-
-为了确保您能够顺利发送通知邮件，请按照以下步骤操作，完成必要的设置。
-
-### 如何选择 SMTP 服务器地址
-
-不同的电子邮件服务商有不同的 SMTP 服务器地址。请根据您使用的电子邮件服务提供商选择正确的 SMTP 服务器地址。这里列出一些常用的电子邮件服务及其
-SMTP 服务器地址：
-
-```txt
-1. Gmail: smtp.gmail.com
-2. Outlook/Hotmail: smtp-mail.outlook.com
-3. Yahoo Mail: smtp.mail.yahoo.com
-4. QQ邮箱: smtp.qq.com
-5. 163邮箱: smtp.163.com
-```
-
-如果您使用的电子邮件服务不在上述列表中，请访问该邮件服务的帮助中心或搜索其 SMTP 服务器地址。通常可以在邮件服务商的官方网站的帮助文档中找到相关信息。
-
-### 如何申请授权码
-
-授权码是用于替代您的邮箱密码进行第三方客户端登录的一种特殊密码。以下是获取不同邮件服务商授权码的一般步骤，具体步骤可能会因邮件服务商的不同而有所变化，请参考相应服务商的官方说明：
-
-#### 1. Gmail
-
-- 访问您的 Google 账号管理页面。
-- 在“安全性”选项中找到“App 密码”，生成一个新的应用专用密码。
-
-#### 2. Outlook/Hotmail
-
-- 登录到您的 Outlook 账户。
-- 转到“我的账户” > “安全和隐私” > “更多安全选项”。
-- 在“应用程序密码”部分，创建一个新的应用程序密码。
-
-#### 3. Yahoo Mail
-
-- 登录到您的 Yahoo 账户。
-- 前往账户的安全设置。
-- 找到“生成应用程序密码”或类似选项以创建新的应用密码。
-
-#### 4. QQ邮箱
-
-<Pill name="QQ邮箱官方教程" image="https://res.wx.qq.com/t/webmail/webmail/res/static/images/projects/login/loginpage/qqmail_logo_default_35h.e071fb4.png" link="https://service.mail.qq.com/detail/0/75"/>
-
-- 登录到您的 QQ 邮箱。
-- 点击“设置” > “账户”。
-- 在“POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务”部分，开启对应服务并按提示获取授权码。
-
-#### 5. 163邮箱
-
-<Pill name="163邮箱官方教程" image="https://help.mail.163.com/style/img/logo-163.png" link="https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2a5feb28b66796d3b"/>
-
-- 登录到您的 163 邮箱。
-- 点击“设置” > “POP3/SMTP/IMAP”。
-- 开启对应的服务后，按照指示获取授权码。
-
-::: warning 注意
-请注意，出于安全考虑，强烈建议不要在公共场合泄露您的授权码，并且定期更换它。
-
-AUTO_MAA 已对本地授权码数据使用 Windows DPAPI 加密，这种加密方式使用当前用户的登录凭据作为加密密钥的一部分，这意味着只有同一个用户在同一台计算机上才能解密数据。
-
-如果您需要跨设备迁移配置文件，请重新输入授权码。
 :::
