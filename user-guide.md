@@ -40,6 +40,11 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
    }" link="https://github.com/DLmaster361/AUTO_MAA"/> 下载最新版本的安装包。
 2. 解压 AUTO_MAA 压缩包至任意普通文件夹。
 
+::: warning 注意
+
+由于 AUTO_MAA 有修改注册表等行为，使用前请将 `AUTO_MAA 安装目录`、`%TEMP%\AUTO_MAA`、`%temp%\AUTO_MAA_Updater` 添加入 Windows Defender 信任区以及防病毒软件的信任区或开发者目录，避免被误杀。
+  :::
+
 ### 启动 AUTO_MAA
 
 双击 `AUTO_MAA.exe` 启动软件。
