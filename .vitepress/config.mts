@@ -18,7 +18,7 @@ export default defineConfig({
         items: [
           { text: "新手上路", link: "/user-guide" },
           { text: "进阶功能", link: "/advanced-features" },
-          { text: "Q&A", link: "/qa" },
+          { text: "常见问题", link: "/frequently-asked-questions" },
           { text: "更新日志", link: "/changelog" },
         ],
       },

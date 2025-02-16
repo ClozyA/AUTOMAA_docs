@@ -21,8 +21,8 @@ hero:
       text: 进阶功能
       link: /advanced-features
     - theme: alt
-      text: Q&A
-      link: /qa
+      text: 常见问题
+      link: /frequently-asked-questions
 
 features:
   - title: 节省运行开销

@@ -1,0 +1,34 @@
+# 常见问题
+
+### **AUTO_MAA与MAA有什么关系？**
+
+- AUTO_MAA是MAA的调度工具。
+- AUTO_MAA项目组与MAA项目组是完全独立的两班人马。
+- MAA项目组容忍AUTO_MAA项目的存在。
+
+### **无法解密用户数据怎么办？**
+
+- 请确保 `data/key/` 目录完整，若密钥丢失，需删除 `data/key` 与 `config` 目录重新录入信息。
+
+### **为什么 AUTO_MAA 无法打开 MAA 设置窗口？**
+
+- 若您在 MAA 中启用了 **启动 MAA 后直接最小化** 与 **最小化时隐藏至托盘**，请您从托盘区找到 MAA 后继续配置。若您认为该操作过于费时，可尝试启用 **静默模式**。
+- 检查 MAA 是否被要求以管理员身份运行，若是，请取消。
+- 检查 MAA 内是否有名为 `Default` 的配置，若无，请创建一个名为 `Default` 的配置，并删除原有脚本实例重新配置。
+
+### **如何安全保存 MAA 的设置？**
+
+- 请在 AUTO_MAA 中进行 MAA 配置，并避免在配置期间重启MAA，以确保所有更改都被程序正常记录。
+
+### **调度队列为何没有自动运行？**
+
+- 请确认调度队列已 **开启**，并且 **软件未被意外关闭**。
+
+### **为何软件的标题栏上半部分区域会显示主题色？**
+
+- 因为您在系统设置中开启了 **在标题栏和窗口边框上显示强调色**，您可以在 **设置 > 个性化 > 颜色** 处关闭。
+
+更多问题请参考 <Pill name="AUTO_MAA GitHub Issues" :image="{
+light: 'https://i.theojs.cn/logo/github.svg',
+dark: 'https://i.theojs.cn/logo/github-dark.svg',
+}" link="https://github.com/DLmaster361/AUTO_MAA/issues"/> 。
