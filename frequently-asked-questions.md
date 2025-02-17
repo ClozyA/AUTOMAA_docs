@@ -28,6 +28,10 @@
 
 - 因为您在系统设置中开启了 **在标题栏和窗口边框上显示强调色**，您可以在 **设置 > 个性化 > 颜色** 处关闭。
 
+### **打开静默模式后模拟器仍未能自动最小化？**
+
+- 请检查是否正确填写模拟器老板键，并确认是否存在按键冲突情况。
+
 更多问题请参考 <Pill name="AUTO_MAA GitHub Issues" :image="{
 light: 'https://i.theojs.cn/logo/github.svg',
 dark: 'https://i.theojs.cn/logo/github-dark.svg',
