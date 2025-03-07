@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/AUTOMAA_docs/",
+  base: "/",
   title: "AUTO_MAA",
   description: "AUTO_MAA",
   themeConfig: {
