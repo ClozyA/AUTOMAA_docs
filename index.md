@@ -7,7 +7,7 @@ hero:
   text: "MAA多账号管理与自动化软件"
   tagline: "优化MAA多账号体验，提高代理稳定性"
   prelink:
-    title: 'AUTO_MAA v4.2.5 已发布'
+    title: 'AUTO_MAA v4.3.3 已发布'
     content: '🚀点击前往 GitHub 进行下载🚀'
     link: https://github.com/DLmaster361/AUTO_MAA/releases/latest
   image:
@@ -21,7 +21,7 @@ hero:
       text: 进阶功能
       link: /advanced-features
     - theme: alt
-      text: 模拟器多开
+      text: 多开指南
       link: /multi-instance
     - theme: alt
       text: 常见问题
