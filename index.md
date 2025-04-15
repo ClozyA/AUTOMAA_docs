@@ -21,6 +21,9 @@ hero:
       text: 进阶功能
       link: /advanced-features
     - theme: alt
+      text: 模拟器多开
+      link: /multi-instance
+    - theme: alt
       text: 常见问题
       link: /frequently-asked-questions
 
