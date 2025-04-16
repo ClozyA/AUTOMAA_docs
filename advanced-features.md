@@ -125,7 +125,7 @@ SCT
 SC3
 平台获取Key：<Pill name="SC3 SendKey" image="https://the7.ft07.com/sct/images/favicon.png" link="https://sc3.ft07.com/sendkey"/>
 
-:::warning 注意
+::: warning 注意
 以上两个平台仅需选择一个即可，请根据您的实际情况选择。
 :::
 
