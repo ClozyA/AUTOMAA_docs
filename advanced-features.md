@@ -84,14 +84,14 @@ AUTO_MAA提供丰富的 **通知** 功能，您可以配置想要推送的通知
 
 **授权码** 是用于替代您的邮箱密码进行第三方客户端登录的一种特殊密码，您需要填写发信邮箱的授权码。常见邮件服务商授权码的一般获取步骤如下：
 
-1. QQ邮箱
+1. **QQ 邮箱**
 
 <Pill name="QQ邮箱官方教程" image="https://res.wx.qq.com/t/webmail/webmail/res/static/images/projects/login/loginpage/qqmail_logo_default_35h.e071fb4.png" link="https://service.mail.qq.com/detail/0/75"/>
 
   - 登录到您的 [QQ 邮箱账号与安全中心](https://wx.mail.qq.com/account)。
   - 在 **账号与安全 > 安全设置 > SMTP/IMAP服务** 中开启服务并获取授权码。
 
-2. 163邮箱
+2. **163 邮箱**
 
 <Pill name="163邮箱官方教程" image="https://help.mail.163.com/style/img/logo-163.png" link="https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2a5feb28b66796d3b"/>
 
@@ -100,20 +100,20 @@ AUTO_MAA提供丰富的 **通知** 功能，您可以配置想要推送的通知
   - 在弹窗中点击 **继续开启**，根据指示在手机中发送短信。
   - 弹窗生成 **授权密码**，该密码便为您的授权码。
 
-3. Gmail
+3. **Gmail**
 
   - 登录到您的 [Gmail](https://mail.google.com)。
   - 进入 **设置 > 查看所有设置 > 转发和 POP/IMAP > IMAP 访问**，选择 **启用 IMAP**。
   - 进入 **用户 > 管理您的 Google 账号 > 安全性 > 两步验证**，按提示开启 **两步验证**。
   - 进入 **两步验证 > 应用专用密码**，按提示创建 **应用专用密码**，该密码便为您的授权码。
 
-4. Outlook/Hotmail
+4. **Outlook/Hotmail**
 
   - 登录到您的 **Outlook 账户**。
   - 进入 **我的账户 > 安全和隐私 > 更多安全选项**。
   - 在 **应用程序密码** 中创建应用程序密码。
 
-5. Yahoo Mail
+5. **Yahoo Mail**
 
   - 登录到您的 **Yahoo 账户**。
   - 前往账户的 **安全设置**。
@@ -129,7 +129,7 @@ AUTO_MAA提供丰富的 **通知** 功能，您可以配置想要推送的通知
 
 ### ServerChan 通知推送渠道
 
-「Server酱」，英文名「ServerChan」，是一款 **手机** 与 **服务器/智能设备** 之间的通信工具。它的主要作用是：
+**「Server酱」**，英文名 **「ServerChan」**，是一款 **手机** 与 **服务器/智能设备** 之间的通信工具。它的主要作用是：
 
 - 让服务器、路由器等设备推送消息到手机。
 - 在这里，它用于 **AUTO_MAA 代理成功后推送消息到手机**。
@@ -150,7 +150,7 @@ Server酱官方在 2024 年推出了一种新的 App 推送渠道，与原来的
 
 #### SendKey
 
-SendKey 是 **Server酱** 平台对用户的认证方式。只有 **提供 SendKey**，AUTO_MAA 才能将消息精准推送到您的设备。
+**SendKey** 是 **Server酱** 平台对用户的认证方式。只有 **提供 SendKey**，AUTO_MAA 才能将消息精准推送到您的设备。
 
 SCT
 平台获取Key：<Pill name="SCT SendKey" image="https://the7.ft07.com/sct/images/favicon.png" link="https://sct.ftqq.com/sendkey"/>
@@ -215,18 +215,18 @@ SC3
       name="企业微信官网"
       link="https://work.weixin.qq.com/"
       image="https://open.work.weixin.qq.com/favicon.ico" />
-      ，点击“立即注册”，按照指引完成企业账号注册。
+      ，点击 **立即注册**，按照指引完成企业账号注册。
     - 注册完成后，用注册时绑定的微信号或手机号登录企业微信客户端。
 
 2. 添加群机器人
-    - **电脑端**：进入内部群聊，点击右上角的“三个点”菜单，选择“添加群机器人”。
-    - **手机端**：在内部群聊中，点击右上角的“三个点”菜单，然后选择“添加群机器人”。
+    - **电脑端**：进入内部群聊，点击右上角的 **···** 菜单，选择 **添加群机器人**。
+    - **手机端**：在内部群聊中，点击右上角的 **···** 菜单，然后选择 **添加群机器人**。
     - 机器人的名称和头像可随意填写
 
 3. 获取群机器人 Webhook 地址
     - 机器人创建者可在查看机器人信息时获取对应的 Webhook URL。
-    - **手机端**：进入群聊，点击右上角的“三个点”菜单，选择“群机器人”，点击对应机器人后即可看到 Webhook 地址。
-    - **电脑端**：在群聊中，右键点击相应机器人，选择“查看资料”，即可获取 Webhook 地址。
+    - **手机端**：进入群聊，点击右上角的 **···** 菜单，选择 **群机器人**，点击对应机器人后即可看到 Webhook 地址。
+    - **电脑端**：在群聊中，右键点击相应机器人，选择 **查看资料**，即可获取 Webhook 地址。
 
 4. 配置推送
-    - 将获取的 Webhook URL 填写到 AUTO_MAA 的`推送企业微信机器人通知`配置项中，即可实现消息推送。
+    - 将获取的 Webhook URL 填写到 AUTO_MAA 的 **推送企业微信机器人通知** 配置项中，即可实现消息推送。
