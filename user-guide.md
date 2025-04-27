@@ -28,7 +28,7 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 
 ### 安装 MAA
 
-1. 前往 [MAA 官网](https://maa.plus)、[MAA 仓库](https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest)或[Mirror 酱](https://mirrorchyan.com/zh/projects?rid=MAA) 下载软件压缩包。
+1. 前往 [MAA 官网](https://maa.plus)、[MAA 仓库](https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest) 或 [Mirror 酱](https://mirrorchyan.com/zh/projects?rid=MAA) 下载软件压缩包。
 2. 将 MAA 压缩包解压至任意普通文件夹。
 
 ### 安装 AUTO_MAA
@@ -36,7 +36,7 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 1. 前往 <Pill name="AUTO_MAA 仓库" :image="{
    light: 'https://i.theojs.cn/logo/github.svg',
    dark: 'https://i.theojs.cn/logo/github-dark.svg',
-   }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/>或[Mirror 酱](https://mirrorchyan.com/zh/projects?rid=AUTO_MAA) 下载最新版本的安装包。
+   }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 [Mirror 酱](https://mirrorchyan.com/zh/projects?rid=AUTO_MAA) 下载最新版本的安装包。
 2. 解压 AUTO_MAA 压缩包至任意普通文件夹。
 
 ### 为软件添加信任
