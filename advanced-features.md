@@ -215,7 +215,7 @@ SC3
       name="企业微信官网"
       link="https://work.weixin.qq.com/"
       image="https://open.work.weixin.qq.com/favicon.ico" />
-      ，点击 **立即注册**，按照指引完成企业账号注册。
+      点击立即注册，按照指引完成企业账号注册。
     - 注册完成后，用注册时绑定的微信号或手机号登录企业微信客户端。
 
 2. 添加群机器人
