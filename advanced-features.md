@@ -210,12 +210,7 @@ SC3
 :::
 
 1. 注册企业账号
-    - 在电脑上打开
-      <Pill
-      name="企业微信官网"
-      link="https://work.weixin.qq.com/"
-      image="https://open.work.weixin.qq.com/favicon.ico" />
-      点击立即注册，按照指引完成企业账号注册。
+    - 在电脑上打开 <Pill name="企业微信官网" link="https://work.weixin.qq.com/" image="https://open.work.weixin.qq.com/favicon.ico" />，按照指引完成企业账号注册。
     - 注册完成后，用注册时绑定的微信号或手机号登录企业微信客户端。
 
 2. 添加群机器人
