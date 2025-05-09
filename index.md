@@ -28,14 +28,14 @@ hero:
       link: /frequently-asked-questions
 
 features:
-  - title: 节省运行开销
-    details: 只需要一份MAA软件与一个模拟器，无需多开就能完成多账号代理，羸弱的电脑也能代理日常。
-  - title: 自定义空间大
-    details: 依靠高级用户配置模式，支持MAA几乎所有设置选项自定义，支持模拟器多开。
-  - title: 调度方法自由
-    details: 通过调度队列功能，自由实现MAA多开等多种调度方式。
-  - title: 一键代理无忧
-    details: 无须中途手动修改MAA配置，将繁琐交给AUTO_MAA，把游戏留给自己。
+  - title: 集中管理
+    details: 一站式管理多个MAA脚本与多个用户配置，和凌乱的散装脚本窗口说再见！
+  - title: 无人值守
+    details: 自动处理MAA相关报错，再也不用为代理任务卡死时自己不在电脑旁烦恼啦！
+  - title: 配置灵活
+    details: 通过调度队列与脚本的组合，自由实现您能想到的所有调度需求！
+  - title: 信息统计
+    details: 自动统计用户的公招与关卡掉落物，看看这个月您的收益是多少！
 ---
 
 ## 为什么选择 AUTO_MAA？
