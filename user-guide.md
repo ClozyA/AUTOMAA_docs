@@ -34,11 +34,16 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 ### 安装 AUTO_MAA
 
 1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA"/> 下载最新版本的安装包。
-2. 解压 AUTO_MAA 压缩包至任意普通文件夹。
+2. 解压 AUTO_MAA 压缩包并双击运行 `AUTO_MAA-Setup.exe`。
+3. 按照安装指引将 AUTO_MAA 安装至任意普通文件夹。
+
+::: warning 注意
+无论是 MAA 还是 AUTO_MAA，都 **不能** 安装在 `C:\Program Files` 或 `C:\Program Files (x86)` 下。
+:::
 
 ### 为软件添加信任
 
-运行软件前，请将 `MAA 安装目录`、`AUTO_MAA 安装目录`、`%TEMP%\AUTO_MAA`、`%TEMP%\AUTO_MAA_Updater` 添加入 Windows Defender 排除项以及防病毒软件的信任区或开发者目录，避免被误杀。以下展示 **添加 Windows Defender 排除项** 方法：
+运行软件前，请将 `MAA 安装目录`、`AUTO_MAA 安装目录`、`%TEMP%\AUTO_MAA` 添加入 Windows Defender 排除项以及防病毒软件的信任区或开发者目录，避免被误杀。以下展示 **添加 Windows Defender 排除项** 方法：
 
 1. 若已安装其它杀毒软件，请先打开 **定期扫描**。
 ![Windows Defender配置1](img/WD-1.png)
