@@ -45,6 +45,8 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 
 运行软件前，请将 `MAA 安装目录`、`AUTO_MAA 安装目录`、`%TEMP%\AUTO_MAA` 添加入 Windows Defender 排除项以及防病毒软件的信任区或开发者目录，避免被误杀。以下展示 **添加 Windows Defender 排除项** 方法：
 
+快速链接：[Windows 安全中心](ms-settings:windowsdefender)
+
 1. 若已安装其它杀毒软件，请先打开 **定期扫描**。
 ![Windows Defender配置1](img/WD-1.png)
 
