@@ -22,18 +22,18 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 
 <Box :items="[
 { name: 'MAA 官网', link: 'https://maa.plus/', image: 'https://maa.plus/favicon.ico', },
-{ name: 'MAA GitHub', link: 'https://github.com/MaaAssistantArknights/MaaAssistantArknights', image: { light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg', }, },]"/>
+{ name: 'MAA GitHub', link: 'https://github.com/MaaAssistantArknights/MaaAssistantArknights', image: { light: 'img/github.svg', dark: 'img/github-dark.svg', }, },]"/>
 
 ## 使用方法
 
 ### 安装 MAA
 
-1. 前往 <Pill name="MAA 官网" image="https://maa.plus/favicon.ico" link="https://maa.plus"/>、<Pill name="MAA 仓库" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg', }" link="https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=MAA"/> 下载软件压缩包。
+1. 前往 <Pill name="MAA 官网" image="https://maa.plus/favicon.ico" link="https://maa.plus"/>、<Pill name="MAA 仓库" :image="{ light: 'img/github.svg', dark: 'img/github-dark.svg', }" link="https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=MAA"/> 下载软件压缩包。
 2. 将 MAA 压缩包解压至任意普通文件夹。
 
 ### 安装 AUTO_MAA
 
-1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: 'https://i.theojs.cn/logo/github.svg', dark: 'https://i.theojs.cn/logo/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA"/> 下载最新版本的安装包。
+1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: 'img/github.svg', dark: 'img/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA"/> 下载最新版本的安装包。
 2. 解压 AUTO_MAA 压缩包并双击运行 `AUTO_MAA-Setup.exe`。
 3. 按照安装指引将 AUTO_MAA 安装至任意普通文件夹。
 

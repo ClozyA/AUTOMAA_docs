@@ -10,8 +10,8 @@
       name: 'MAA GitHub',
       link: 'https://github.com/MaaAssistantArknights/MaaAssistantArknights',
       image: {
-        light: 'https://i.theojs.cn/logo/github.svg',
-        dark: 'https://i.theojs.cn/logo/github-dark.svg',
+        light: 'img/github.svg',
+        dark: 'img/github-dark.svg',
       },
     },
   ]"
