@@ -90,7 +90,7 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 ![AUTO_MAA配置4](img/AUTO_MAA-config-4.png)
 4. 在 **MAA 目录** 中单击 **选择文件夹**，打开 MAA 软件所在目录。
 ![AUTO_MAA配置5](img/AUTO_MAA-config-5.png)
-5. 在 **MAA 全局配置** 中单击 **设置**，在打开的 MAA 页面中进行全局设置。您可以参照 [MAA 官方文档](https://maa.plus/docs/zh-cn/manual) 进行设置。
+5. 在 **MAA 全局配置** 中单击 **设置**，在打开的 MAA 页面中进行全局设置。您可以参照 [MAA 官方文档](https://maa.plus/docs/zh-cn/manual/) 进行设置。
 ![AUTO_MAA配置6](img/AUTO_MAA-config-6.png)
 6. 参照 [多开指南 > MAA 设置](https://doc.automaa.xyz/multi-instance.html) 完成 **MAA** 的 **启动设置**，并手动取消勾选 **开机自启动MAA**。
 ![MAA配置](img/MAA-config.png)
