@@ -7,7 +7,7 @@ hero:
   text: "MAA多账号管理与自动化软件"
   tagline: "优化MAA多账号体验，提高代理稳定性"
   prelink:
-    title: 'AUTO_MAA v4.3.8 已发布'
+    title: 'AUTO_MAA v4.3.10 已发布'
     content: '🚀点击前往 GitHub 进行下载🚀'
     link: https://github.com/DLmaster361/AUTO_MAA/releases/latest
   image:
@@ -47,4 +47,4 @@ features:
 - **兼容扩展**：支持 MAA 几乎所有的配置选项，满足不同用户需求。
 
 
-*另：祝2025届考生高考顺利！*
+Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
