@@ -24,6 +24,7 @@ export default defineConfig({
           { text: "新手上路", link: "/user-guide" },
           { text: "进阶功能", link: "/advanced-features" },
           { text: "多开指南", link: "/multi-instance" },
+          { text: "通用调度", link: "/general-manager" },
           { text: "常见问题", link: "/frequently-asked-questions" },
           { text: "更新日志", link: "/changelog" },
         ],
