@@ -29,13 +29,13 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 ### 安装 MAA
 
 1. 前往 <Pill name="MAA 官网" image="https://maa.plus/favicon.ico" link="https://maa.plus"/>、<Pill name="MAA 仓库" :image="{ light: 'resource/github.svg', dark: 'resource/github-dark.svg', }" link="https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=MAA"/> 下载软件压缩包。
-2. 将 MAA 压缩包解压至任意普通文件夹。
+2. 将 MAA 压缩包解压至任意文件夹。
 
 ### 安装 AUTO_MAA
 
 1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: 'resource/github.svg', dark: 'resource/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA"/> 下载最新版本的安装包。
 2. 解压 AUTO_MAA 压缩包并双击运行 `AUTO_MAA-Setup.exe`。
-3. 按照安装指引将 AUTO_MAA 安装至任意普通文件夹。
+3. 按照安装指引将 AUTO_MAA 安装至任意文件夹。
 
 ::: warning 注意
 无论是 MAA 还是 AUTO_MAA，都 **不能** 安装在 `C:\Program Files` 或 `C:\Program Files (x86)` 下。
@@ -77,7 +77,7 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 - **管理密钥是解密用户密码的唯一凭证**，与用户数据绑定，用于加密 **用户密码** 这类高保密信息。
   - 若 `data/key/` 目录下的文件损坏，解密功能将无法正常进行。
 - **项目组无法找回您的管理密钥或修复 `data/key/` 目录下的文件**。
-  - 若遗失密钥，建议删除 `data/key` 与 `config` 目录后重新录入信息。
+  - 若遗失密钥，建议使用 `重置管理密钥` 功能，该操作会清除所有用户密码信息。
 :::
 
 ### 设置脚本实例
