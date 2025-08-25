@@ -1,7 +1,8 @@
 import type { FooterData } from "@theojs/lumen";
 
 export const Footer_Data: FooterData = {
-  // beian: { icp: "备案号", police: "公网安备号", showIcon: true },
+  // beian: { icp: "浙ICP备2025193608号-1", police: "公网安备号", showIcon: true },
+  beian: { icp: "浙ICP备2025193608号-1",  showIcon: true },
   author: { name: "ClozyA", link: "https://github.com/ClozyA" },
   group: [
     {
