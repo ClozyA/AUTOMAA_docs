@@ -52,4 +52,4 @@ date: 2025-04-27
 
 - 请检查是否正确填写模拟器老板键，并确认是否存在按键冲突情况。
 
-更多问题请参考 <Pill name="AUTO_MAA GitHub Issues" :image="{ light: 'resource/github.svg', dark: 'resource/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/issues"/> 。
+更多问题请参考 <Pill name="AUTO_MAA GitHub Issues" :image="{ light: '/resource/github.svg', dark: '/resource/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/issues"/> 。

@@ -16,19 +16,19 @@ hero:
   actions:
     - theme: brand
       text: 新手上路
-      link: /user-guide
+      link: /docs/user-guide
     - theme: alt
       text: 进阶功能
-      link: /advanced-features
+      link: /docs/advanced-features
     - theme: alt
       text: 多开指南
-      link: /multi-instance
+      link: /docs/multi-instance
     - theme: alt
       text: 通用调度
-      link: /general-manager
+      link: /docs/general-manager
     - theme: alt
       text: 常见问题
-      link: /frequently-asked-questions
+      link: /docs/frequently-asked-questions
 
 features:
   - title: 集中管理

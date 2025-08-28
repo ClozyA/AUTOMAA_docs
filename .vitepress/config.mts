@@ -14,22 +14,33 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/user-guide" },
+      { text: "文档", link: "/docs/user-guide" },
+      { text: "下载", link: "/download/auto-maa" },
     ],
 
-    sidebar: [
-      {
-        text: "AUTO_MAA 文档",
-        items: [
-          { text: "新手上路", link: "/user-guide" },
-          { text: "进阶功能", link: "/advanced-features" },
-          { text: "多开指南", link: "/multi-instance" },
-          { text: "通用调度", link: "/general-manager" },
-          { text: "常见问题", link: "/frequently-asked-questions" },
-          { text: "更新日志", link: "/changelog" },
-        ],
-      },
-    ],
+    sidebar: {
+      '/docs/': [
+        {
+          text: "AUTO_MAA 文档",
+          items: [
+            { text: "新手上路", link: "/docs/user-guide" },
+            { text: "进阶功能", link: "/docs/advanced-features" },
+            { text: "多开指南", link: "/docs/multi-instance" },
+            { text: "通用调度", link: "/docs/general-manager" },
+            { text: "常见问题", link: "/docs/frequently-asked-questions" },
+            { text: "更新日志", link: "/docs/changelog" },
+          ],
+        },
+      ],
+      '/download/': [
+        {
+          text: "软件下载",
+          items: [
+            { text: "AUTO_MAA", link: "/download/auto-maa" },
+          ],
+        },
+      ],
+    },
     search: {
       provider: 'local'
     },

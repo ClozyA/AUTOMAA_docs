@@ -30,8 +30,8 @@
       name: 'GitHub',
       link: '#',
       image: {
-        light: 'resource/github.svg',
-        dark: 'resource/github-dark.svg'
+        light: '/resource/github.svg',
+        dark: '/resource/github-dark.svg'
       }
     },
     //描述

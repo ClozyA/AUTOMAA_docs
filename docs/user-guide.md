@@ -22,24 +22,20 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 
 <Box :items="[
 { name: 'MAA 官网', link: 'https://maa.plus/', image: 'https://maa.plus/favicon.ico', },
-{ name: 'MAA GitHub', link: 'https://github.com/MaaAssistantArknights/MaaAssistantArknights', image: { light: 'resource/github.svg', dark: 'resource/github-dark.svg', }, },]"/>
+{ name: 'MAA GitHub', link: 'https://github.com/MaaAssistantArknights/MaaAssistantArknights', image: { light: '/resource/github.svg', dark: '/resource/github-dark.svg', }, },]"/>
 
 ## 使用方法
 
 ### 安装 MAA
 
-1. 前往 <Pill name="MAA 官网" image="https://maa.plus/favicon.ico" link="https://maa.plus"/>、<Pill name="MAA 仓库" :image="{ light: 'resource/github.svg', dark: 'resource/github-dark.svg', }" link="https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=MAA"/> 下载软件压缩包。
+1. 前往 <Pill name="MAA 官网" image="https://maa.plus/favicon.ico" link="https://maa.plus"/>、<Pill name="MAA 仓库" :image="{ light: '/resource/github.svg', dark: '/resource/github-dark.svg', }" link="https://github.com/MaaAssistantArknights/MaaAssistantArknights/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=MAA&scouce=AUTO_MAA-Web"/> 下载软件压缩包。
 2. 将 MAA 压缩包解压至任意文件夹。
 
 ### 安装 AUTO_MAA
 
-1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: 'resource/github.svg', dark: 'resource/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA"/> 下载最新版本的安装包。
+1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: '/resource/github.svg', dark: '/resource/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA&scource=AUTO_MAA-Web"/> 下载最新版本的安装包。
 2. 解压 AUTO_MAA 压缩包并双击运行 `AUTO_MAA-Setup.exe`。
 3. 按照安装指引将 AUTO_MAA 安装至任意文件夹。
-
-::: warning 注意
-无论是 MAA 还是 AUTO_MAA，都 **不能** 安装在 `C:\Program Files` 或 `C:\Program Files (x86)` 下。
-:::
 
 ### 为软件添加信任
 
@@ -92,7 +88,7 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 ![AUTO_MAA配置5](img/AUTO_MAA-config-5.png)
 5. 在 **MAA 全局配置** 中单击 **设置**，在打开的 MAA 页面中进行全局设置。您可以参照 [MAA 官方文档](https://maa.plus/docs/zh-cn/manual/) 进行设置。
 ![AUTO_MAA配置6](img/AUTO_MAA-config-6.png)
-6. 参照 [多开指南 > MAA 设置](https://doc.automaa.xyz/multi-instance.html) 完成 **MAA** 的 **启动设置**，并手动取消勾选 **开机自启动MAA**。
+6. 参照 [多开指南 > MAA 设置](/docs/multi-instance) 完成 **MAA** 的 **启动设置**，并手动取消勾选 **开机自启动MAA**。
 ![MAA配置](img/MAA-config.png)
 7. 完成配置后，关闭 **MAA**。AUTO_MAA 成功保存您的配置后，将在右上角弹出 **任务结束** 消息。
 ![AUTO_MAA配置7](img/AUTO_MAA-config-7.png)
@@ -154,5 +150,5 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 ![AUTO_MAA运行1](img/AUTO_MAA-run-1.png)
 - **定时运行**：调度队列 **状态** 设为 **开启**，在 **定时选项卡** 设置运行时间。保持软件运行，软件将在设定的时间自动执行任务。
 ![AUTO_MAA运行2](img/AUTO_MAA-run-2.png)
-- **多开运行**：**主调度台** 运行任务时，可以通过单击 **添加任务**，在新调度台开启新任务。定时启动多开任务，参见 [多开指南](https://doc.automaa.xyz/multi-instance.html)。
+- **多开运行**：**主调度台** 运行任务时，可以通过单击 **添加任务**，在新调度台开启新任务。定时启动多开任务，参见 [多开指南](/docs/multi-instance)。
 ![AUTO_MAA运行3](img/AUTO_MAA-run-3.png)
