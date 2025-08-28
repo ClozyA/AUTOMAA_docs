@@ -125,7 +125,7 @@ onBeforeUnmount(() => {
     <picture>
       <img src="/resource/AUTO_MAA.png" alt="AUTO_MAA图标" style="width:48px;height:48px;">
     </picture>
-    <div class="download-card-title">AUTO_MAA 自建下载站</div>
+    <div class="download-card-title">自建下载站</div>
     <div class="download-card-desc">暂不开放官网下载，仅能在应用内使用<br>适用于已安装本软件的老用户</div>
     <!-- <a href="https://example.com/" target="_blank">直接下载</a> -->
   </div>
