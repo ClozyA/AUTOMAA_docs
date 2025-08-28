@@ -83,7 +83,6 @@ onBeforeUnmount(() => {
     transition: none;
 }
   .download-card a:hover {
-  /* 保持和非悬浮状态一致 */
   background: var(--vp-c-brand);
   color: var(--vp-c-bg);
   box-shadow: 0 1px 4px 0 rgba(60,60,60,0.08);

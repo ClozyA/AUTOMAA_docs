@@ -33,7 +33,7 @@ MAA 是一个明日方舟第三方软件，能够轻松完成明日方舟日常�
 
 ### 安装 AUTO_MAA
 
-1. 前往 <Pill name="AUTO_MAA 仓库" :image="{ light: '/resource/github.svg', dark: '/resource/github-dark.svg', }" link="https://github.com/DLmaster361/AUTO_MAA/releases/latest"/> 或 <Pill name="Mirror 酱" image="https://mirrorchyan.com/favicon.ico" link="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA&scource=AUTO_MAA-Web"/> 下载最新版本的安装包。
+1. 前往 [AUTO_MAA 下载](/download/auto-maa) 获取最新版本安装包。
 2. 解压 AUTO_MAA 压缩包并双击运行 `AUTO_MAA-Setup.exe`。
 3. 按照安装指引将 AUTO_MAA 安装至任意文件夹。
 
