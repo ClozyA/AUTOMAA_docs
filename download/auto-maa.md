@@ -109,7 +109,7 @@ onBeforeUnmount(() => {
     </div>
     <div class="download-card-title">GitHub 仓库</div>
     <div class="download-card-desc">从 GitHub Release 直接下载最新版本<br>适用于能够直接访问 GitHub 的用户</div>
-    <a href="https://github.com/DLmaster361/AUTO_MAA/releases/latest" target="_blank">立即下载</a>
+    <a href="https://github.com/DLmaster361/AUTO_MAA/releases/latest" target="_blank">前往下载</a>
   </div>
 
   <div class="download-card">
@@ -118,7 +118,7 @@ onBeforeUnmount(() => {
     </picture>
     <div class="download-card-title">Mirror 酱</div>
     <div class="download-card-desc">从 Mirror 酱高速下载最新版本<br>适用于已有 Mirror 酱 CDK 的富裕用户</div>
-    <a href="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA&scource=AUTO_MAA-Web" target="_blank">立即下载</a>
+    <a href="https://mirrorchyan.com/zh/projects?rid=AUTO_MAA&scource=AUTO_MAA-Web" target="_blank">高速下载</a>
   </div>
 
   <div class="download-card">
@@ -126,8 +126,8 @@ onBeforeUnmount(() => {
       <img src="/resource/AUTO_MAA.png" alt="AUTO_MAA图标" style="width:48px;height:48px;">
     </picture>
     <div class="download-card-title">自建下载站</div>
-    <div class="download-card-desc">暂不开放官网下载，仅能在应用内使用<br>适用于已安装本软件的老用户</div>
-    <!-- <a href="https://example.com/" target="_blank">直接下载</a> -->
+    <div class="download-card-desc">从项目组自建下载站下载稳定版本<br>适用于绝大多数用户</div>
+    <a href="https://download.auto-mas.top/d/AUTO_MAA/AUTO_MAA_v4.4.3.zip" target="_blank">直接下载</a>
   </div>
 
   <div class="download-card">
@@ -136,7 +136,7 @@ onBeforeUnmount(() => {
     </picture>
     <div class="download-card-title">B 站小店</div>
     <div class="download-card-desc">从 B 站小店购买并下载稳定版本<br>适用于希望额外打赏开发者的富裕用户</div>
-    <a href="https://mall.bilibili.com/neul-next/detailuniversal/detail.html?isMerchant=1&page=detailuniversal_detail&saleType=10&itemsId=11306389&loadingShow=1&noTitleBar=1&msource=merchant_share" target="_blank">转到商品页</a>
+    <a href="https://mall.bilibili.com/neul-next/detailuniversal/detail.html?isMerchant=1&page=detailuniversal_detail&saleType=10&itemsId=11306389&loadingShow=1&noTitleBar=1&msource=merchant_share" target="_blank">前往商品页</a>
   </div>
 
 </div>
